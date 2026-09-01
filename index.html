@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FWRange Repo</title>
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; background: #000; color: #fff; }
+  h1 { font-size: 2em; margin-bottom: 4px; }
+  .sub { color: #888; margin-bottom: 40px; }
+  .card { background: #111; border-radius: 12px; padding: 20px; margin: 16px 0; border: 1px solid #222; }
+  .card h2 { margin: 0 0 6px; font-size: 1.1em; }
+  .card p { margin: 0; color: #aaa; font-size: 0.9em; }
+  code { background: #1a1a1a; padding: 12px 16px; border-radius: 8px; display: block; margin: 24px 0; font-size: 0.85em; color: #0af; word-break: break-all; }
+  .step { counter-increment: steps; }
+  .steps { counter-reset: steps; }
+  .step::before { content: counter(steps) ". "; font-weight: bold; color: #0af; }
+</style>
+</head>
+<body>
+<h1>FWRange Repo</h1>
+<p class="sub">Sileo / Zebra / Cydia source</p>
+
+<div class="card">
+  <h2>How to add this repo</h2>
+  <p>Copy the URL below and add it as a source in Sileo (Sources → + → paste URL)</p>
+</div>
+
+<code>https://YOUR_USERNAME.github.io/fwrange-repo/</code>
+
+<div class="card">
+  <h2>PayRange Operator Hook</h2>
+  <p>Enables Fowler Laundry operator mode in PayRange on any account. Supports refund code generation, maintenance view, and BLE session caching.</p>
+</div>
+
+<p class="sub" style="margin-top:40px; font-size:0.8em;">Updates deploy automatically when a new .deb is pushed to the repo.</p>
+</body>
+</html>
