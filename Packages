@@ -1,13 +1,26 @@
 Package: com.fwrange.payrangehook
 Name: PayRange Operator Hook
-Version: 1.0.16
+Version: 1.0.17
 Architecture: iphoneos-arm64
 Description: Unlocks Fowler Laundry operator mode in PayRange. Enables operator dropdown on any account, refund code generation, context-aware maintenance view, and BLE session caching.
 Author: FWRange
 Maintainer: FWRange
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.fwrange.payrangehook_1.0.16_iphoneos-arm64.deb
-Size: 46504
-SHA256: 1cb94e6a5956fa03b5b8e36bd1facffc271a8e93ef8dadb9de2867e553bbc112
+Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
+Size: 46440
+SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
+
+Package: com.qiop1379.iflooder
+Name: iFlooder
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Description: A tweak to spam in the messages app. Updated for iOS 17.
+Author: qwertyuiop1379
+Maintainer: qwertyuiop1379
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
+Size: 13784
+SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
 
