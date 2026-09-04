@@ -10,12 +10,12 @@ Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/payrangehook.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwrange.payrangehook.json
 Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
-Size: 46440
+Size: 59724
 SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
 Package: com.itaysoft.chusma
 Name: Chusma New Gen
-Version: 2.7.1
+Version: 2.8.0
 Architecture: iphoneos-arm64
 Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
 Author: Chusma New Gen (based on Chusma by Itay)
@@ -24,9 +24,9 @@ Section: Tweaks
 Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusma.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.itaysoft.chusma.json
-Filename: debs/com.itaysoft.chusma_2.7.1_iphoneos-arm64.deb
-Size: 59478
-SHA256: ac6d72a03737def8e8a97a59435646e35e9b8ce36a877065778c78f6f0206b27
+Filename: debs/com.itaysoft.chusma_2.8.0_iphoneos-arm64.deb
+Size: 59724
+SHA256: 397ce631543779977d23b127e0889ef4b6cd7a285b541ec9109ed6a149975615
 
 Package: com.qiop1379.iflooder
 Name: iFlooder
@@ -40,6 +40,6 @@ Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/iflooder.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.qiop1379.iflooder.json
 Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
-Size: 13784
+Size: 59724
 SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
 
