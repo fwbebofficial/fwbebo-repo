@@ -3,36 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FWbebo</title>
+<title>FWbebo — Sileo Repo</title>
+<meta name="description" content="FWbebo — jailbreak tweaks and tools for Sileo, Zebra and Cydia.">
+<link rel="icon" href="CydiaIcon.png">
 <style>
-  body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; background: #000; color: #fff; }
-  h1 { font-size: 2em; margin-bottom: 4px; }
-  .sub { color: #888; margin-bottom: 40px; }
-  .card { background: #111; border-radius: 12px; padding: 20px; margin: 16px 0; border: 1px solid #222; }
-  .card h2 { margin: 0 0 6px; font-size: 1.1em; }
-  .card p { margin: 0; color: #aaa; font-size: 0.9em; }
-  code { background: #1a1a1a; padding: 12px 16px; border-radius: 8px; display: block; margin: 24px 0; font-size: 0.85em; color: #0af; word-break: break-all; }
-  .step { counter-increment: steps; }
-  .steps { counter-reset: steps; }
-  .step::before { content: counter(steps) ". "; font-weight: bold; color: #0af; }
+  :root {
+    --bg: #0a0a0c;
+    --card: #141418;
+    --card-hover: #1a1a20;
+    --border: #26262e;
+    --text: #f5f5f7;
+    --muted: #8a8a94;
+    --accent: #2e8bff;
+    --accent-2: #1a5ab4;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo {
+    width: 88px; height: 88px; border-radius: 20px;
+    margin: 0 auto 18px; display: block;
+    box-shadow: 0 8px 32px rgba(46,139,255,0.25);
+  }
+  h1 { font-size: 2.1em; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); margin: 0; font-size: 1.05em; }
+
+  .add-box {
+    background: linear-gradient(135deg, var(--accent-2), var(--accent));
+    border-radius: 16px; padding: 22px; margin: 32px 0;
+    text-align: center;
+  }
+  .add-box h2 { margin: 0 0 4px; font-size: 1.15em; }
+  .add-box p { margin: 0 0 18px; color: rgba(255,255,255,0.8); font-size: 0.9em; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .btn {
+    flex: 1 1 140px;
+    background: rgba(255,255,255,0.16);
+    color: #fff; text-decoration: none;
+    padding: 12px 16px; border-radius: 10px;
+    font-weight: 600; font-size: 0.95em;
+    border: 1px solid rgba(255,255,255,0.22);
+    transition: background 0.15s;
+  }
+  .btn:hover, .btn:active { background: rgba(255,255,255,0.28); }
+
+  .url-copy {
+    display: flex; align-items: center; gap: 8px;
+    background: rgba(0,0,0,0.28); border-radius: 10px;
+    padding: 10px 12px; margin-top: 14px;
+  }
+  .url-copy code {
+    flex: 1; color: #fff; font-size: 0.82em;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    text-align: left;
+  }
+  .copy-btn {
+    background: rgba(255,255,255,0.2); border: none; color: #fff;
+    padding: 6px 12px; border-radius: 7px; font-weight: 600;
+    cursor: pointer; font-size: 0.82em;
+  }
+
+  .section-label {
+    font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 40px 0 12px; font-weight: 600;
+  }
+  .card {
+    display: flex; align-items: center; gap: 16px;
+    background: var(--card); border-radius: 14px;
+    padding: 16px; margin: 12px 0;
+    border: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+  .card:hover { background: var(--card-hover); }
+  .card img {
+    width: 60px; height: 60px; border-radius: 13px;
+    flex-shrink: 0; background: #000; object-fit: cover;
+  }
+  .card .info { flex: 1; min-width: 0; }
+  .card h3 { margin: 0 0 3px; font-size: 1.05em; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.87em; }
+  .card .meta { margin-top: 6px; font-size: 0.78em; color: #5a5a64; }
+  .badge {
+    display: inline-block; background: rgba(46,139,255,0.15);
+    color: var(--accent); padding: 2px 8px; border-radius: 6px;
+    font-size: 0.75em; font-weight: 600; margin-left: 6px;
+  }
+
+  footer {
+    text-align: center; margin-top: 48px;
+    color: #5a5a64; font-size: 0.8em;
+  }
+  footer a { color: var(--muted); }
 </style>
 </head>
 <body>
-<h1>FWbebo</h1>
-<p class="sub">Sileo / Zebra / Cydia source</p>
+<header>
+  <img src="CydiaIcon.png" alt="FWbebo" class="logo">
+  <h1>FWbebo</h1>
+  <p class="sub">Jailbreak tweaks &amp; tools</p>
+</header>
 
-<div class="card">
-  <h2>How to add this repo</h2>
-  <p>Copy the URL below and add it as a source in Sileo (Sources → + → paste URL)</p>
+<div class="add-box">
+  <h2>Add this repository</h2>
+  <p>One tap to add FWbebo to your package manager</p>
+  <div class="btn-row">
+    <a class="btn" href="sileo://source/https://fwbebofficial.github.io/fwbebo-repo/">Add to Sileo</a>
+    <a class="btn" href="zbra://sources/add/https://fwbebofficial.github.io/fwbebo-repo/">Add to Zebra</a>
+    <a class="btn" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://fwbebofficial.github.io/fwbebo-repo/">Add to Cydia</a>
+  </div>
+  <div class="url-copy">
+    <code id="repoUrl">https://fwbebofficial.github.io/fwbebo-repo/</code>
+    <button class="copy-btn" onclick="copyUrl()">Copy</button>
+  </div>
 </div>
 
-<code>https://YOUR_USERNAME.github.io/fwrange-repo/</code>
+<div class="section-label">Packages</div>
 
 <div class="card">
-  <h2>PayRange Operator Hook</h2>
-  <p>Enables Fowler Laundry operator mode in PayRange on any account. Supports refund code generation, maintenance view, and BLE session caching.</p>
+  <img src="assets/payrangehook.png" alt="PayRange Operator Hook">
+  <div class="info">
+    <h3>PayRange Operator Hook</h3>
+    <p>Unlocks Fowler Laundry operator mode in PayRange: operator dropdown on any account, refund code generation, maintenance view, and BLE session caching.</p>
+    <div class="meta">v1.0.17 · iOS 12–17 · arm64 + arm64e</div>
+  </div>
 </div>
 
-<p class="sub" style="margin-top:40px; font-size:0.8em;">Updates deploy automatically when a new .deb is pushed to the repo.</p>
+<div class="card">
+  <img src="assets/iflooder.png" alt="iFlooder">
+  <div class="info">
+    <h3>iFlooder</h3>
+    <p>Spam messages in the Messages app. Updated for iOS 17.</p>
+    <div class="meta">v1.1.0 · iOS 17 · arm64</div>
+  </div>
+</div>
+
+<footer>
+  <p>Updates deploy automatically when a new .deb is pushed.<br>
+  Hosted on GitHub Pages · <a href="https://github.com/fwbebofficial/fwbebo-repo">Source</a></p>
+</footer>
+
+<script>
+  function copyUrl() {
+    var url = document.getElementById('repoUrl').textContent.trim();
+    var btn = document.querySelector('.copy-btn');
+    navigator.clipboard.writeText(url).then(function () {
+      btn.textContent = 'Copied!';
+      setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+    }).catch(function () {
+      btn.textContent = 'Copy failed';
+      setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+    });
+  }
+</script>
 </body>
 </html>

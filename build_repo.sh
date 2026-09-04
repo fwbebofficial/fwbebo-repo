@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 cd "$(dirname "$0")"
-BASE_URL="https://fwbebofficial.github.io/fwrange-repo"
+BASE_URL="https://fwbebofficial.github.io/fwbebo-repo"
 pkg_icon() {
   case "$1" in
     com.fwrange.payrangehook) echo "assets/payrangehook.png" ;;
