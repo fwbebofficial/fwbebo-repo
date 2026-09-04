@@ -17,7 +17,7 @@ Package: com.itaysoft.chusma
 Name: Chusma New Gen
 Version: 2.7.0
 Architecture: iphoneos-arm64
-Description: Get notified when someone checks your location via Find My. Custom sounds, notification sender spoofing, tracking log with export.
+Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
 Author: Chusma New Gen (based on Chusma by Itay)
 Maintainer: Chusma New Gen
 Section: Tweaks
