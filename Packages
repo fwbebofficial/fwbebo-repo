@@ -10,7 +10,7 @@ Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/payrangehook.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwrange.payrangehook.json
 Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
-Size: 59724
+Size: 46440
 SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
 Package: com.itaysoft.chusma
@@ -40,6 +40,6 @@ Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/iflooder.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.qiop1379.iflooder.json
 Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
-Size: 59724
+Size: 13784
 SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
 
