@@ -97,6 +97,27 @@
     font-size: 0.75em; font-weight: 600; margin-left: 6px;
   }
 
+  .card-note {
+    margin-top: 10px; padding: 9px 11px;
+    background: rgba(46,139,255,0.08);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.8em; color: var(--muted); line-height: 1.45;
+  }
+  .card-note strong { color: #d8d8e0; }
+  .dl-row {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px;
+  }
+  .dl-btn {
+    display: inline-block; text-decoration: none;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid var(--border);
+    color: var(--accent); padding: 6px 12px;
+    border-radius: 8px; font-size: 0.78em; font-weight: 600;
+  }
+  .dl-btn:hover { background: rgba(255,255,255,0.12); }
+  .dl-btn small { display: block; color: #5a5a64; font-weight: 400; }
+
   footer {
     text-align: center; margin-top: 48px;
     color: #5a5a64; font-size: 0.8em;
@@ -148,9 +169,24 @@
 <div class="card">
   <img src="assets/chusma.png" alt="Chusma New Gen">
   <div class="info">
-    <h3>Chusma New Gen</h3>
+    <h3>Chusma New Gen <span class="badge">Includes app</span></h3>
     <p>Get notified instantly when someone checks your location via Find My, with a full tracking log, timestamps, daily counts and CSV export.</p>
-    <div class="meta">v2.9.0 · iOS 14–17+ · arm64 (rootless)</div>
+    <div class="meta">v3.0.0 · iOS 14–17+ · arm64 (rootless) · jailbreak required</div>
+
+    <div class="card-note">
+      <strong>The companion app installs with the tweak.</strong> iOS only lets an
+      installed app own a notification section, so Chusma ships a small app that
+      holds that permission — installing from Sileo puts it on your home screen
+      automatically. Open it once, grant notification access, then pick
+      <em>Chusma App</em> as the Notification Sender.
+    </div>
+
+    <div class="dl-row">
+      <a class="dl-btn" href="tipa/ChusmaApp_3.0.0.tipa" download>
+        Download .tipa
+        <small>TrollStore — app only, tweak still needs a jailbreak</small>
+      </a>
+    </div>
   </div>
 </div>
 
