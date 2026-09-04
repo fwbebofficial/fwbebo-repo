@@ -15,7 +15,7 @@ SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
 Package: com.itaysoft.chusma
 Name: Chusma New Gen
-Version: 2.7.0
+Version: 2.7.1
 Architecture: iphoneos-arm64
 Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
 Author: Chusma New Gen (based on Chusma by Itay)
@@ -24,9 +24,9 @@ Section: Tweaks
 Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusma.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.itaysoft.chusma.json
-Filename: debs/com.itaysoft.chusma_2.7.0_iphoneos-arm64.deb
-Size: 59792
-SHA256: 2015840ffeaa5b9e86769a32f4cf5bdc15d8039da1cfca91c4977d01942ef4db
+Filename: debs/com.itaysoft.chusma_2.7.1_iphoneos-arm64.deb
+Size: 59478
+SHA256: ac6d72a03737def8e8a97a59435646e35e9b8ce36a877065778c78f6f0206b27
 
 Package: com.qiop1379.iflooder
 Name: iFlooder
