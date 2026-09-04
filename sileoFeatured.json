@@ -16,6 +16,13 @@
       "url": "https://fwbebofficial.github.io/fwbebo-repo/",
       "hideShadow": false,
       "backgroundColor": "#DC501A"
+    },
+    {
+      "package": "com.itaysoft.chusma",
+      "title": "Chusma New Gen",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
+      "hideShadow": false,
+      "backgroundColor": "#2E8BFF"
     }
   ]
 }

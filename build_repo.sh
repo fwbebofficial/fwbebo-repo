@@ -6,12 +6,14 @@ pkg_icon() {
   case "$1" in
     com.fwrange.payrangehook) echo "assets/payrangehook.png" ;;
     com.qiop1379.iflooder)   echo "assets/iflooder.png" ;;
+    com.itaysoft.chusma)     echo "assets/chusma.png" ;;
   esac
 }
 pkg_depiction() {
   case "$1" in
     com.fwrange.payrangehook) echo "depictions/com.fwrange.payrangehook.json" ;;
     com.qiop1379.iflooder)   echo "depictions/com.qiop1379.iflooder.json" ;;
+    com.itaysoft.chusma)     echo "depictions/com.itaysoft.chusma.json" ;;
   esac
 }
 echo "Generating Packages..."

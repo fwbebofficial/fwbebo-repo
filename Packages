@@ -13,6 +13,21 @@ Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
 Size: 46440
 SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
+Package: com.itaysoft.chusma
+Name: Chusma New Gen
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
+Author: Chusma New Gen (based on Chusma by Itay)
+Maintainer: Chusma New Gen
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusma.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.itaysoft.chusma.json
+Filename: debs/com.itaysoft.chusma_2.0.0_iphoneos-arm64.deb
+Size: 41448
+SHA256: 670130b113de74c47fccd08384038eca65c6476dd1901356511db1d2ea34e821
+
 Package: com.qiop1379.iflooder
 Name: iFlooder
 Version: 1.1.0
