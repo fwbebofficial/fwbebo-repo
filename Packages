@@ -1,6 +1,6 @@
 Package: com.fwbebo.chusma.app
 Name: Chusma App
-Version: 3.2.0
+Version: 3.4.1
 Architecture: iphoneos-arm64
 Description: Companion app for Chusma New Gen. Holds the notification permission so Chusma can post real iOS notifications. Install this OR the TrollStore .tipa, not both.
 Author: Chusma New Gen
@@ -9,9 +9,9 @@ Section: Tweaks
 Depends: firmware (>= 14.0)
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusmaapp.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.chusma.app.json
-Filename: debs/com.fwbebo.chusma.app_3.2.0_iphoneos-arm64.deb
-Size: 328460
-SHA256: e63e99cc6dc39bd192316372ba6a561cb6fba0d8da8465ff8eb3a704293cfb8a
+Filename: debs/com.fwbebo.chusma.app_3.4.1_iphoneos-arm64.deb
+Size: 328436
+SHA256: 01d840362570021a4ccd70ec3211458b0c5ed8e318b69a6b168a8663ab1c3087
 
 Package: com.fwrange.payrangehook
 Name: PayRange Operator Hook
@@ -30,7 +30,7 @@ SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
 Package: com.itaysoft.chusma
 Name: Chusma New Gen
-Version: 3.2.0
+Version: 3.4.1
 Architecture: iphoneos-arm64
 Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
 Author: Chusma New Gen (based on Chusma by Itay)
@@ -39,9 +39,9 @@ Section: Tweaks
 Depends: mobilesubstrate
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusma.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.itaysoft.chusma.json
-Filename: debs/com.itaysoft.chusma_3.2.0_iphoneos-arm64.deb
-Size: 63600
-SHA256: 3cb0d18005c7bf770b04fe2fbb9758c041d53d272c47ff4b4d775e33a004b7ca
+Filename: debs/com.itaysoft.chusma_3.4.1_iphoneos-arm64.deb
+Size: 66276
+SHA256: 86ed79f3ad23bb4c1b33f727eb6f3b381a80936a8f43de39c08658dab696c953
 
 Package: com.qiop1379.iflooder
 Name: iFlooder
