@@ -169,22 +169,32 @@
 <div class="card">
   <img src="assets/chusma.png" alt="Chusma New Gen">
   <div class="info">
-    <h3>Chusma New Gen <span class="badge">Includes app</span></h3>
+    <h3>Chusma New Gen</h3>
     <p>Get notified instantly when someone checks your location via Find My, with a full tracking log, timestamps, daily counts and CSV export.</p>
-    <div class="meta">v3.1.0 · iOS 14–17+ · arm64 (rootless) · jailbreak required</div>
+    <div class="meta">v3.2.0 &middot; iOS 14&ndash;17+ &middot; arm64 (rootless) &middot; jailbreak required</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="assets/chusmaapp.png" alt="Chusma App">
+  <div class="info">
+    <h3>Chusma App <span class="badge">Optional</span></h3>
+    <p>Companion app that holds the notification permission, so Chusma can post real iOS notifications on the lock screen and in Notification Center instead of drawing its own banner.</p>
+    <div class="meta">v3.2.0 &middot; bundle ID com.fwbebo.chusma</div>
 
     <div class="card-note">
-      <strong>The companion app installs with the tweak.</strong> iOS only lets an
-      installed app own a notification section, so Chusma ships a small app that
-      holds that permission — installing from Sileo puts it on your home screen
-      automatically. Open it once, grant notification access, then pick
-      <em>Chusma App</em> as the Notification Sender.
+      <strong>Install one way, not both.</strong> Get it from Sileo as
+      <em>Chusma App</em>, or sideload the <code>.tipa</code> with TrollStore.
+      Both claim the same bundle ID, so TrollStore will refuse to install if the
+      Sileo version is already there. TrollStore registers the app more
+      completely &mdash; if notification permission won&rsquo;t stick after the
+      Sileo install, remove it and use the <code>.tipa</code>.
     </div>
 
     <div class="dl-row">
-      <a class="dl-btn" href="tipa/ChusmaApp_3.1.0.tipa" download>
+      <a class="dl-btn" href="tipa/ChusmaApp_3.2.0.tipa" download>
         Download .tipa
-        <small>TrollStore — app only, tweak still needs a jailbreak</small>
+        <small>TrollStore &mdash; the tweak itself still needs a jailbreak</small>
       </a>
     </div>
   </div>

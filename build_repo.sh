@@ -7,6 +7,7 @@ pkg_icon() {
     com.fwrange.payrangehook) echo "assets/payrangehook.png" ;;
     com.qiop1379.iflooder)   echo "assets/iflooder.png" ;;
     com.itaysoft.chusma)     echo "assets/chusma.png" ;;
+    com.fwbebo.chusma.app)   echo "assets/chusmaapp.png" ;;
   esac
 }
 pkg_depiction() {
@@ -14,6 +15,7 @@ pkg_depiction() {
     com.fwrange.payrangehook) echo "depictions/com.fwrange.payrangehook.json" ;;
     com.qiop1379.iflooder)   echo "depictions/com.qiop1379.iflooder.json" ;;
     com.itaysoft.chusma)     echo "depictions/com.itaysoft.chusma.json" ;;
+    com.fwbebo.chusma.app)   echo "depictions/com.fwbebo.chusma.app.json" ;;
   esac
 }
 echo "Generating Packages..."
