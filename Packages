@@ -57,4 +57,18 @@ SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.qiop1
 Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
 Size: 13784
 SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
+Package: com.fwbebo.fwjp
+Name: FWJP
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug and anti-hook checks. Spoofs IDFV and device serial for a fresh device identity on every reset. Includes floating overlay with live log, Reset & Spoof, and Device Info panel.
+Author: FWbebo
+Maintainer: FWbebo <toshidelay@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate | substitute | libhooker
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.fwjp.json
+Filename: debs/com.fwbebo.fwjp_1.0.0_iphoneos-arm64.deb
+Size: 34950
+SHA256: ba16c61cf78b4264bcb5316a4efda2b5e33d7da1830e47984f2ba8b01cadc0ab
 
