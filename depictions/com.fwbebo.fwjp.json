@@ -1,1 +1,54 @@
-{"minVersion":"0.1","class":"DepictionTabView","tintColor":"#2e8bff","tabs":[{"tabname":"Details","class":"DepictionStackView","views":[{"class":"DepictionSubheaderView","title":"FWJP — Amazon Security Bypass","useBoldText":true,"useBottomMargin":false},{"class":"DepictionSeparatorView"},{"class":"DepictionMarkdownTextView","markdown":"Disables Amazon Shopping's entire Kavach security SDK and spoofs device identity so the app sees a clean new device on every reset.\n\n**Security bypasses:**\n- Kavach SDK (all 9 check flags)\n- Jailbreak detection\n- Anti-debugging\n- Anti-hooking / dylib enumeration\n- Harmful app detector\n- Developer mode detector\n- Runtime manipulation detector\n- Network proxy/VPN monitor\n- App Attest graceful fallback\n\n**Identity spoofing:**\n- IDFV (identifierForVendor)\n- Device serial number (keychain)\n- Fraud metadata collector\n- Longhorn device fingerprint\n- Weblab automation detection\n\n**Floating overlay (⚡ FAB):**\n- Live log of every hook that fires\n- 🔄 Reset & Spoof — wipes all app data, cookies, keychain, caches, generates fresh IDFV + serial\n- ℹ️ Device Info — shows spoofed vs real identifiers"},{"class":"DepictionSeparatorView"},{"class":"DepictionTableTextView","title":"Developer","text":"FWbebo"},{"class":"DepictionTableTextView","title":"Version","text":"1.0.0"},{"class":"DepictionTableTextView","title":"Compatibility","text":"iOS 14–17, arm64 (rootless + rootful)"},{"class":"DepictionTableTextView","title":"Target App","text":"Amazon Shopping (com.amazon.mobile.shopping)"},{"class":"DepictionTableTextView","title":"Depends","text":"MobileSubstrate / Substitute / libhooker"}]},{"tabname":"Changelog","class":"DepictionStackView","views":[{"class":"DepictionSubheaderView","title":"v1.0.0","useBoldText":true,"useBottomMargin":false},{"class":"DepictionMarkdownTextView","markdown":"- Initial release\n- Full Kavach SDK bypass\n- IDFV + serial + fingerprint spoofing\n- One-tap wipe and identity reset\n- Floating overlay log viewer"}]}]}
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#2196F3",
+  "headerImage": "https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "FWJP"
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "**FWJP** disables Amazon Japan's security stack and spoofs your device identity so the app sees a fresh device on every reset.\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, device serial, and fraud metadata fingerprint\n- Forces Amazon Japan locale (ja_JP) so the app opens amazon.co.jp\n- Floating \u26a1 overlay: live hook log, Reset & Spoof button, Device Info panel",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Developer: FWbebo",
+          "action": "https://github.com/fwbebofficial"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed floating \u26a1 overlay not appearing on iOS 16 (UIWindowScene fix)\n- Added NSLocale hook to force amazon.co.jp instead of amazon.com\n- Fixed panel presenter on iOS 13+",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Initial release\n- Kavach SDK bypass\n- Identity spoofing (IDFV, serial, fingerprint)\n- Floating overlay with reset and device info",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
