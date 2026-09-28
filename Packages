@@ -60,15 +60,13 @@ SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
 
 Package: com.fwbebo.fwjp
 Name: FWJP
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug and anti-hook checks. Spoofs IDFV and device serial for a fresh device identity on every reset. Includes floating overlay with live log, Reset & Spoof, and Device Info panel.
-Author: FWbebo
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Forces Amazon Japan marketplace locale. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
 Maintainer: FWbebo <toshidelay@gmail.com>
+Author: FWbebo
 Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
-Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png
-SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.fwjp.json
-Filename: debs/com.fwbebo.fwjp_1.0.0_iphoneos-arm64.deb
-Size: 34950
-SHA256: ba16c61cf78b4264bcb5316a4efda2b5e33d7da1830e47984f2ba8b01cadc0ab
+Filename: debs/com.fwbebo.fwjp_1.0.1_iphoneos-arm64.deb
+Size: 36056
+SHA256: bc3e88460094bc98350571cbca5ca4d9635b6c18188fa7b7f509d88a6303296c
