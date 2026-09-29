@@ -30,6 +30,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.9",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed `application.name` leaking as `FWamz` in MAES telemetry body — hooks `NSBundle` display name to return `Amazon Shopping`\n- Patched `amzn-app-ctxt.scc`: GBox was sending `USA`; now derived from marketplace (`ZA` for SA, `JP` for Japan)\n- Patched `amzn-app-ctxt.dm.pt`: GBox sent wrong top padding (`16`); corrected to `177` for iPhone 15 Pro Dynamic Island\n- Spoofed `installId` (`NA:mshop:<uuid>`) — regenerated on every Reset & Spoof wipe; intercepted in NSUserDefaults reads\n- Spoofed IDFA (`ASIdentifierManager`) — persistent UUID regenerated on wipe\n- `NSProcessInfo.physicalMemory` now returns 8 GB consistent with iPhone 15 Pro\n- `CTCarrier` spoofed to marketplace carrier (Vodacom/ZA for SA, NTT DOCOMO/JP for Japan)\n- Pre-patches cookie cache at launch so the first MAES call goes out clean",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.8",
           "useMargins": true
         },
