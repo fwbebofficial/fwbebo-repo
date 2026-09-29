@@ -15,15 +15,26 @@ SHA256: 01d840362570021a4ccd70ec3211458b0c5ed8e318b69a6b168a8663ab1c3087
 
 Package: com.fwbebo.fwjp
 Name: FWJP
-Version: 1.0.3
+Version: 1.0.2-1+debug
 Architecture: iphoneos-arm64
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint for a fresh identity on every reset. Forces Amazon Japan locale (ja_JP). Floating overlay with live log, Reset & Spoof, Device Info, cookie extractor, and Japan marketplace persistence.
-Maintainer: FWbebo <toshidelay@gmail.com>
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
 Author: FWbebo
+Maintainer: FWbebo <toshidelay@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
-Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png
-SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.fwjp.json
+Filename: debs/com.fwbebo.fwjp_1.0.2_iphoneos-arm64.deb
+Size: 36126
+SHA256: 8006c5f9d84c943f8d01da1f2c60e23c5d6874193176d1e842f17489b620b4fa
+
+Package: com.fwbebo.fwjp
+Name: FWJP
+Version: 1.0.3-1+debug
+Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
+Maintainer: FWbebo <toshidelay@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.3_iphoneos-arm64.deb
 Size: 44294
 SHA256: 8e914e9efbb7618cd41b395a22ade8652e7287836b54582b408a4daa8d3ceae2
@@ -72,3 +83,4 @@ SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.qiop1
 Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
 Size: 13784
 SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
+
