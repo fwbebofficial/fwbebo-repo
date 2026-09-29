@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "**FWJP** disables Amazon Japan's security stack and spoofs your device identity so the app sees a fresh device on every reset.\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, device serial, and fraud metadata fingerprint\n- Forces Amazon Japan locale (ja_JP) so the app opens amazon.co.jp\n- Floating \u26a1 overlay: live hook log, Reset & Spoof button, Device Info panel",
+          "markdown": "**FWJP** disables Amazon Japan's security stack and spoofs your device identity so the app sees a fresh device on every reset.\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, device serial, and fraud metadata fingerprint\n- Forces Amazon Japan locale (ja_JP) so the app opens amazon.co.jp\n- Japan marketplace persistence: survives Reset & Spoof wipes\n- Floating overlay: live hook log, Reset & Spoof, Device Info, Cookie Extractor",
           "useSpacing": true
         },
         {
@@ -30,12 +30,32 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.3",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Cookie extractor: tap Cookies in the overlay to grab your amazon.co.jp session cookies and copy to clipboard\n- Japan marketplace persistence: country/locale settings survive Reset & Spoof wipes\n- 3-button overlay toolbar (Reset | Cookies | Info)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed startup deadlock caused by NSLocale hook locking during early ObjC init\n- All hook bodies are now non-blocking (async log dispatch)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.1",
           "useMargins": true
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "- Fixed floating \u26a1 overlay not appearing on iOS 16 (UIWindowScene fix)\n- Added NSLocale hook to force amazon.co.jp instead of amazon.com\n- Fixed panel presenter on iOS 13+",
+          "markdown": "- Fixed floating overlay not appearing on iOS 16 (UIWindowScene fix)\n- Added NSLocale hook to force amazon.co.jp instead of amazon.com\n- Fixed panel presenter on iOS 13+",
           "useSpacing": true
         },
         {
