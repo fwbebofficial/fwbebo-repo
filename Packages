@@ -15,18 +15,18 @@ SHA256: 01d840362570021a4ccd70ec3211458b0c5ed8e318b69a6b168a8663ab1c3087
 
 Package: com.fwbebo.fwjp
 Name: FWJP
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint for a fresh identity on every reset. Forces Amazon Japan locale (ja_JP). Japan marketplace persists across wipes. Floating overlay with live log, Reset & Spoof, cookie extractor, and device info panel.
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint for a fresh identity on every reset. Forces Amazon Japan locale (ja_JP). Japan marketplace persists across wipes. Floating overlay with Reset, Cookies, Step Recorder, and Device Info.
 Maintainer: FWbebo <toshidelay@gmail.com>
 Author: FWbebo
 Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.fwjp.json
-Filename: debs/com.fwbebo.fwjp_1.0.3_iphoneos-arm64.deb
-Size: 44268
-SHA256: 25dfc834600a9825de1027f44f9d2e178bc00d0e83f4fd037d9ff9bf60a3a3f9
+Filename: debs/com.fwbebo.fwjp_1.0.4_iphoneos-arm64.deb
+Size: 53248
+SHA256: 0ab535be4dd4d1c1767083fe31e201ab1e6508ffc7b050eb125a0888b2dcad71
 
 Package: com.fwrange.payrangehook
 Name: PayRange Operator Hook
