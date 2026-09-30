@@ -4,6 +4,13 @@
   "itemCornerRadius": 8,
   "banners": [
     {
+      "package": "com.fw.fwmod",
+      "title": "FWMod — MCPE Mod Menu",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
+      "hideShadow": false,
+      "backgroundColor": "#1E2650"
+    },
+    {
       "package": "com.fwrange.payrangehook",
       "title": "PayRange Hook",
       "url": "https://fwbebofficial.github.io/fwbebo-repo/",
