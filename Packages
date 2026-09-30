@@ -280,16 +280,16 @@ Author: Chusma New Gen (based on Chusma by Itay)
 Name: Chusma New Gen
 
 Package: com.mcpe.modmenu
-Version: 1.0.5
+Version: 1.0.6
 Architecture: iphoneos-arm64
 Maintainer: bebo
 Installed-Size: 308
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/com.mcpe.modmenu_1.0.5_iphoneos-arm64.deb
-Size: 48480
-MD5sum: cbce37294c9937815b50267dbfd8cf73
-SHA1: 243358b164808e719108e1f9d6432928a2e925df
-SHA256: cb66083ad9a4a1477dbde3747da33af57c24764c46caea47541f2c9c5523bbc7
+Filename: debs/com.mcpe.modmenu_1.0.6_iphoneos-arm64.deb
+Size: 48830
+MD5sum: bf28594add449d00e04bd32247bff1d1
+SHA1: 85da48a63844b997e702b8b27bd19b5700f1291a
+SHA256: ca91c858be1711516eb51e8404d8ca4ffee3eccc895e46da818fbdb4504d57f3
 Section: Tweaks
 Homepage: https://fwbebofficial.github.io/fwbebo-repo/
 Description: Full mod menu for Minecraft PE v1.26.52 - players, world, combat, ESP (iOS 17 Dopamine rootless)
