@@ -1,296 +1,257 @@
 Package: com.fw.fwmod
+Name: FWMod
 Version: 1.0.0
 Architecture: iphoneos-arm64
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
 Maintainer: FW Dev
-Installed-Size: 372
+Section: Tweaks
 Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
 Filename: debs/com.fw.fwmod_1.0.0_iphoneos-arm64.deb
 Size: 68616
-MD5sum: 769284565a26fafec1d2ad7a3378cd12
-SHA1: e7cb2471f6b6a02c84dbba662086ff824e57ec61
 SHA256: 422f5f21c482f927c9fe96db96da30a9ca38e2d0b8c1db19d18c7bcc5b3a7eba
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/fw/fwmod
-Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
-Author: FW Dev
-Name: FWMod
 
 Package: com.fw.fwmod
+Name: FWMod
 Version: 1.0.1
 Architecture: iphoneos-arm64
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
 Maintainer: FW Dev
-Installed-Size: 372
+Section: Tweaks
 Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
 Filename: debs/com.fw.fwmod_1.0.1_iphoneos-arm64.deb
 Size: 68452
-MD5sum: 061bb8d4ee348d5638967200836fc1c7
-SHA1: 5d9e37414cc31369eeb15a52d0b3806ead146058
 SHA256: 1c9a360093f83bbe1444b8ca0ef0b72d367b996ae17c2bc84a17687b7040fc8f
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/fw/fwmod
-Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
-Author: FW Dev
-Name: FWMod
 
 Package: com.fw.fwmod
+Name: FWMod
 Version: 1.0.2
 Architecture: iphoneos-arm64
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
 Maintainer: FW Dev
-Installed-Size: 368
+Section: Tweaks
 Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
 Filename: debs/com.fw.fwmod_1.0.2_iphoneos-arm64.deb
 Size: 66446
-MD5sum: 46bf5af9c16c1d848e6d98bb0e1f6f9e
-SHA1: db8b616dea034c670a66545b74dfb5dd7201a060
 SHA256: 5026fea240e2c7aa92f3ce6cfa0dfe8754a5969a61349e5fd957456f73affebc
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/fw/fwmod
-Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
-Author: FW Dev
-Name: FWMod
 
 Package: com.fw.fwmod
+Name: FWMod
 Version: 1.0.3-1+debug
 Architecture: iphoneos-arm64
-Maintainer: FW Dev
-Installed-Size: 744
-Depends: mobilesubstrate | ellekit
-Filename: debs/com.fw.fwmod_1.0.3-1+debug_iphoneos-arm64.deb
-Size: 112362
-MD5sum: be4389ebfaf477543840288e4ece8efe
-SHA1: 6a29f61badfeb0191e196fe7c6d00a4a0a5e896a
-SHA256: 1c6f519ee6657ec700a6665cc0dc580f8ff11840ab268df530d2484d0319cb3a
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/fw/fwmod
 Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
 Author: FW Dev
-Name: FWMod
+Maintainer: FW Dev
+Section: Tweaks
+Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
+Filename: debs/com.fw.fwmod_1.0.3-1+debug_iphoneos-arm64.deb
+Size: 112362
+SHA256: 1c6f519ee6657ec700a6665cc0dc580f8ff11840ab268df530d2484d0319cb3a
 
 Package: com.fwbebo.chusma.app
+Name: Chusma App
 Version: 3.4.1
 Architecture: iphoneos-arm64
-Maintainer: Chusma New Gen
-Installed-Size: 524
-Depends: firmware (>= 14.0)
-Filename: debs/com.fwbebo.chusma.app_3.4.1_iphoneos-arm64.deb
-Size: 328436
-MD5sum: 72da2db4830143badf95ec790ebf92b4
-SHA1: 46dedd4513a04ffc989b17f81cc5d665a0c9d158
-SHA256: 01d840362570021a4ccd70ec3211458b0c5ed8e318b69a6b168a8663ab1c3087
-Section: Tweaks
 Description: Companion app for Chusma New Gen. Holds the notification permission so Chusma can post real iOS notifications. Install this OR the TrollStore .tipa, not both.
 Author: Chusma New Gen
-Name: Chusma App
+Maintainer: Chusma New Gen
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusmaapp.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwbebo.chusma.app.json
+Filename: debs/com.fwbebo.chusma.app_3.4.1_iphoneos-arm64.deb
+Size: 328436
+SHA256: 01d840362570021a4ccd70ec3211458b0c5ed8e318b69a6b168a8663ab1c3087
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.10-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 276
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.10-1+debug_iphoneos-arm64.deb
 Size: 62348
-MD5sum: 635646f7f6a174e36ac4495e33ed2016
-SHA1: f0139d214cf1a7b034401c19a75912ac80a4ad95
 SHA256: 33819a846f702cc389a2b3ca4d7e7d54c6f98c616e0d344e83cc9fc1d4a7fb6c
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.2-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 188
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.2_iphoneos-arm64.deb
 Size: 36126
-MD5sum: 332224a7ab7b4401d5b2655419b66c45
-SHA1: 1387f81de24202c37699ecf819d7a4fbe700ed8c
 SHA256: 8006c5f9d84c943f8d01da1f2c60e23c5d6874193176d1e842f17489b620b4fa
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.3-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 212
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.3_iphoneos-arm64.deb
 Size: 44294
-MD5sum: 34225df72ad5b80de6a8991b5f66d0c6
-SHA1: 5c7b0e166ee66b0369044364267389902767ff76
 SHA256: 8e914e9efbb7618cd41b395a22ade8652e7287836b54582b408a4daa8d3ceae2
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.4-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 236
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.4_iphoneos-arm64.deb
 Size: 53248
-MD5sum: 65b4705c04d67bdbda5146568a1dbe8e
-SHA1: d40f0882e462608c766f456f1304f9288bc01b90
 SHA256: 0ab535be4dd4d1c1767083fe31e201ab1e6508ffc7b050eb125a0888b2dcad71
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.5-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 256
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.5_iphoneos-arm64.deb
 Size: 55098
-MD5sum: 8c72431cb16b38250f2acc49b379b4c4
-SHA1: 581dbe7e6572aad9f24cbc2d29835a98b86c51af
 SHA256: 69fdaae0308a90503ca6a423fcfe96348bf687ae98e3018d0fda2908ed4f0493
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.6-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 256
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.6_iphoneos-arm64.deb
 Size: 55640
-MD5sum: f29a279e90a88245ebbe797ae725971e
-SHA1: 381ea62d1cff564f601d8aecd03c10e9b7cc3518
 SHA256: bf9d4b9125f6e7865c74fca363ef6efe9775e58dd0f5e4dd3a42cae4b68f01e0
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.7-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 256
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.7_iphoneos-arm64.deb
 Size: 55660
-MD5sum: ddcf2e58ecfb71909e8e8ca51ac25c2b
-SHA1: d0ee3800e71b9b7d589e30706a963749bb0d555e
 SHA256: e7543e2fb4976ab040c15940d9cc0c479d92de333a20b2bee704c3d52fe63fd5
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.8-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 256
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.8_iphoneos-arm64.deb
 Size: 55666
-MD5sum: 208e6ff955135f42050cacbfd8fb94c9
-SHA1: d0be06313c5790c3bab6464b0651a9a2bafdffbd
 SHA256: 9c089de671582d3de813e22fa7f508e87d621884efff0657d37548243a8ef25a
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwbebo.fwjp
+Name: FWJP
 Version: 1.0.9-1+debug
 Architecture: iphoneos-arm64
+Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
+Author: FWbebo
 Maintainer: FWbebo <toshidelay@gmail.com>
-Installed-Size: 260
+Section: Tweaks
 Depends: mobilesubstrate | substitute | libhooker
 Filename: debs/com.fwbebo.fwjp_1.0.9-1+debug_iphoneos-arm64.deb
 Size: 58962
-MD5sum: ecaf27630457cedfbfa23af227c1328f
-SHA1: 0c0867f8ca942b07ba5b937f3e5492e6893819db
 SHA256: 0eb9f6683fb448ff0fc044be29d5d002324aa81d4f7d36c66041a8546e2c6b16
-Section: Tweaks
-Description: Amazon Shopping security bypass. Disables Kavach SDK, jailbreak detection, anti-debug, and anti-hook checks. Spoofs IDFV, device serial, and fingerprint to present a fresh device identity on every reset. Includes in-app floating overlay with live log viewer, one-tap Reset & Spoof, and device info panel.
-Author: FWbebo
-Name: FWJP
 
 Package: com.fwrange.payrangehook
+Name: PayRange Operator Hook
 Version: 1.0.17
 Architecture: iphoneos-arm64
-Maintainer: FWRange
-Depends: mobilesubstrate
-Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
-Size: 46440
-MD5sum: 1d3005e13ed4b3e5bac4bb87bf9f4c7b
-SHA1: 2e19e602fe4f36cd35f487a09f15ef6f3f50c7a0
-SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
-Section: Tweaks
 Description: Unlocks Fowler Laundry operator mode in PayRange. Enables operator dropdown on any account, refund code generation, context-aware maintenance view, and BLE session caching.
 Author: FWRange
-Name: PayRange Operator Hook
+Maintainer: FWRange
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/payrangehook.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fwrange.payrangehook.json
+Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
+Size: 46440
+SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
 
 Package: com.itaysoft.chusma
+Name: Chusma New Gen
 Version: 3.8.1
 Architecture: iphoneos-arm64
-Maintainer: Chusma New Gen
-Installed-Size: 548
-Depends: mobilesubstrate
-Filename: debs/com.itaysoft.chusma_3.8.1_iphoneos-arm64.deb
-Size: 67940
-MD5sum: d0b85dbd3a20a606560fb8edd92d0373
-SHA1: 8f25d3845a54942fc618c97461f93d4eeb7fb144
-SHA256: e33fabdbc2a92410104be0e39eb75206ad5c630b6bd601b455f3547db63f2f1a
-Section: Tweaks
 Description: Get notified when someone checks your location via Find My. Includes full tracking log with timestamps, daily counts, and export.
 Author: Chusma New Gen (based on Chusma by Itay)
-Name: Chusma New Gen
+Maintainer: Chusma New Gen
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/chusma.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.itaysoft.chusma.json
+Filename: debs/com.itaysoft.chusma_3.8.1_iphoneos-arm64.deb
+Size: 67940
+SHA256: e33fabdbc2a92410104be0e39eb75206ad5c630b6bd601b455f3547db63f2f1a
 
 Package: com.mcpe.modmenu
+Name: MCPESpark
 Version: 1.0.5
 Architecture: iphoneos-arm64
-Maintainer: bebo
-Installed-Size: 308
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/com.mcpe.modmenu_1.0.5_iphoneos-arm64.deb
-Size: 48480
-MD5sum: cbce37294c9937815b50267dbfd8cf73
-SHA1: 243358b164808e719108e1f9d6432928a2e925df
-SHA256: cb66083ad9a4a1477dbde3747da33af57c24764c46caea47541f2c9c5523bbc7
-Section: Tweaks
-Homepage: https://fwbebofficial.github.io/fwbebo-repo/
 Description: Full mod menu for Minecraft PE v1.26.52 - players, world, combat, ESP (iOS 17 Dopamine rootless)
 Author: bebo
-Name: MCPESpark
+Maintainer: bebo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Homepage: https://fwbebofficial.github.io/fwbebo-repo/
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/mcpespark.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.mcpe.modmenu.json
+Filename: debs/com.mcpe.modmenu_1.0.5_iphoneos-arm64.deb
+Size: 48480
+SHA256: cb66083ad9a4a1477dbde3747da33af57c24764c46caea47541f2c9c5523bbc7
 
 Package: com.qiop1379.iflooder
+Name: iFlooder
 Version: 1.1.0
 Architecture: iphoneos-arm64
-Maintainer: qwertyuiop1379
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
-Size: 13784
-MD5sum: 2329604edc610257e4b87d48cd5d1585
-SHA1: 8738a7fbb06adc47befcca149e72bde609750259
-SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
-Section: Tweaks
 Description: A tweak to spam in the messages app. Updated for iOS 17.
 Author: qwertyuiop1379
-Name: iFlooder
+Maintainer: qwertyuiop1379
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/iflooder.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.qiop1379.iflooder.json
+Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
+Size: 13784
+SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
 
