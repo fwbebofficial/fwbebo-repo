@@ -210,7 +210,7 @@ SHA256: e33fabdbc2a92410104be0e39eb75206ad5c630b6bd601b455f3547db63f2f1a
 
 Package: com.mcpe.modmenu
 Name: MCPESpark
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64
 Description: Full mod menu for Minecraft PE v1.26.52 - players, world, combat, ESP (iOS 17 Dopamine rootless)
 Author: bebo
@@ -220,9 +220,9 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Homepage: https://fwbebofficial.github.io/fwbebo-repo/
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/mcpespark.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.mcpe.modmenu.json
-Filename: debs/com.mcpe.modmenu_1.0.2_iphoneos-arm64.deb
-Size: 34204
-SHA256: da39c43d63b13253f002e0176aa44351260d55eb3bce27107858f38166329727
+Filename: debs/com.mcpe.modmenu_1.0.3_iphoneos-arm64.deb
+Size: 40978
+SHA256: feb76965746ce66bb8f0ead8a53b9a8b8f72ff1027549aec6de4cc1aaeeca4a5
 
 Package: com.qiop1379.iflooder
 Name: iFlooder
