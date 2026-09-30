@@ -10,8 +10,8 @@ Depends: mobilesubstrate | ellekit
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
 Filename: debs/com.fw.fwmod_1.0.0_iphoneos-arm64.deb
-Size: 1068
-SHA256: 840dee753ff132c500e069b8e9c36e5f2792cbb059c7bf48ff9179256d1dbe8f
+Size: 68616
+SHA256: 422f5f21c482f927c9fe96db96da30a9ca38e2d0b8c1db19d18c7bcc5b3a7eba
 
 Package: com.fwbebo.chusma.app
 Name: Chusma App
