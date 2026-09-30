@@ -70,6 +70,24 @@ Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, Wor
 Author: FW Dev
 Name: FWMod
 
+Package: com.fw.fwmod
+Version: 1.0.4-1+debug
+Architecture: iphoneos-arm64
+Maintainer: FW Dev
+Installed-Size: 744
+Depends: mobilesubstrate | ellekit
+Filename: debs/com.fw.fwmod_1.0.4_iphoneos-arm64.deb
+Size: 113440
+MD5sum: 7868189ee65eea52e8e78adbcc510b89
+SHA1: 9d635a2b8d3abae2a0181861971de72a95628ffb
+SHA256: fb59b11f914160f13f9998d8b779df258ee9297202f953411e9c0609921a53e1
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/fw/fwmod
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
+Name: FWMod
+
 Package: com.fwbebo.chusma.app
 Version: 3.4.1
 Architecture: iphoneos-arm64
