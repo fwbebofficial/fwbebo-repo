@@ -1,6 +1,6 @@
 Package: com.fw.fwmod
 Name: FWMod
-Version: 1.0.2
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
 Author: FW Dev
@@ -10,9 +10,25 @@ Depends: mobilesubstrate | ellekit
 Homepage: https://github.com/fw/fwmod
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
-Filename: debs/com.fw.fwmod_1.0.2_iphoneos-arm64.deb
-Size: 66446
-SHA256: 5026fea240e2c7aa92f3ce6cfa0dfe8754a5969a61349e5fd957456f73affebc
+Filename: debs/com.fw.fwmod_1.0.0_iphoneos-arm64.deb
+Size: 68616
+SHA256: 422f5f21c482f927c9fe96db96da30a9ca38e2d0b8c1db19d18c7bcc5b3a7eba
+
+Package: com.fw.fwmod
+Name: FWMod
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
+Maintainer: FW Dev
+Section: Tweaks
+Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
+Filename: debs/com.fw.fwmod_1.0.1_iphoneos-arm64.deb
+Size: 68452
+SHA256: 1c9a360093f83bbe1444b8ca0ef0b72d367b996ae17c2bc84a17687b7040fc8f
 
 Package: com.fw.fwmod
 Name: FWMod
