@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownTextView",
-          "markdown": "**FWJP** disables Amazon's security stack and spoofs your device identity so the app sees a fresh device on every reset. Works on Amazon Japan and Amazon South Africa (GBox).\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, device serial, and fraud metadata fingerprint\n- Forces Amazon Japan locale (ja_JP)\n- Japan/SA marketplace persists across Reset & Spoof wipes\n- Patches `amzn-app-ctxt` cookie: fixes GBox app name, device model prefix, and carrier field\n- Patches `amzn-app-id` cookie: replaces GBox identity with Amazon Shopping\n- Floating overlay: live hook log, Reset & Spoof, Device Info, Cookie Extractor, Step Recorder",
+          "markdown": "**FWJP** disables Amazon's security stack and spoofs your device identity so the app sees a fresh device on every reset. Works on Amazon Japan and Amazon South Africa (GBox).\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, IDFA, device serial, installId, and fraud metadata fingerprint\n- Marketplace-aware locale + timezone (JP: `ja_JP`/Tokyo, SA: `en_ZA`/Johannesburg)\n- CTCarrier spoofed to match marketplace (Vodacom/ZA or NTT DOCOMO/JP)\n- Scrubs all GBox identity strings from UIDevice, NSBundle, and NSProcessInfo\n- Patches `amzn-app-ctxt` and `amzn-app-id` cookies to strip all GBox fingerprints\n- Japan/SA marketplace persists across Reset & Spoof wipes\n- Floating overlay: live hook log, Reset & Spoof, Cookies, Step Recorder, Info, **Check & Copy Diagnostic**",
           "useSpacing": true
         },
         {
@@ -28,6 +28,16 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.10",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Full fingerprint audit: every GBox signal patched in one build\n- Marketplace-aware locale + timezone — JP: `ja_JP`/`Asia/Tokyo`, SA: `en_ZA`/`Africa/Johannesburg`\n- Restored installId spoof (`NA:mshop:<uuid>`) — intercepted at NSUserDefaults read; regenerated on wipe\n- Restored IDFA spoof (`ASIdentifierManager`) — persistent, regenerated on wipe\n- Restored CTCarrier spoof — Vodacom/ZA/655/01 for SA, NTT DOCOMO/JP/440/10 for Japan\n- Restored `NSProcessInfo.physicalMemory` → 8 GB (iPhone 15 Pro)\n- Scrubbed GBox from `UIDevice.name`, `UIDevice.model`, `NSProcessInfo.processName`, `NSBundle.bundleIdentifier`\n- Restored `NSBundle` display-name hook (FWamz → Amazon Shopping)\n- Restored `amzn-app-ctxt.scc` and `dm.pt` patches\n- New **📋 Check & Copy Diagnostic** toolbar button — copies full report of every spoofed value, live cookies, carrier, locale, and bundle to clipboard",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.9",
