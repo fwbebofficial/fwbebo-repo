@@ -175,6 +175,22 @@ Filename: debs/com.itaysoft.chusma_3.8.1_iphoneos-arm64.deb
 Size: 67940
 SHA256: e33fabdbc2a92410104be0e39eb75206ad5c630b6bd601b455f3547db63f2f1a
 
+Package: com.mcpe.modmenu
+Name: MCPESpark
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Full mod menu for Minecraft PE v1.26.52 - players, world, combat, ESP (iOS 17 Dopamine rootless)
+Author: bebo
+Maintainer: bebo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Homepage: https://fwbebofficial.github.io/fwbebo-repo/
+Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/mcpespark.png
+SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.mcpe.modmenu.json
+Filename: debs/com.mcpe.modmenu_1.0.0_iphoneos-arm64.deb
+Size: 19198
+SHA256: 36a2bf3e050b7cd1e25fb8dc96ba956c7a06883137245c17aecbabbc360b2ffa
+
 Package: com.qiop1379.iflooder
 Name: iFlooder
 Version: 1.1.0
