@@ -1,30 +1,49 @@
+Package: com.fw.fwmod
+Version: 1.0.3-1+debug
+Architecture: iphoneos-arm64
+Maintainer: FW Dev
+Installed-Size: 744
+Depends: mobilesubstrate | ellekit
+Filename: debs/com.fw.fwmod_1.0.3-1+debug_iphoneos-arm64.deb
+Size: 112362
+MD5sum: be4389ebfaf477543840288e4ece8efe
+SHA1: 6a29f61badfeb0191e196fe7c6d00a4a0a5e896a
+SHA256: 1c6f519ee6657ec700a6665cc0dc580f8ff11840ab268df530d2484d0319cb3a
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/fw/fwmod
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
+Name: FWMod
+
 Package: com.fwrange.payrangehook
-Name: PayRange Operator Hook
 Version: 1.0.17
 Architecture: iphoneos-arm64
-Description: Unlocks Fowler Laundry operator mode in PayRange. Enables operator dropdown on any account, refund code generation, context-aware maintenance view, and BLE session caching.
-Author: FWRange
 Maintainer: FWRange
-Section: Tweaks
 Depends: mobilesubstrate
-Icon: https://fwbebofficial.github.io/fwrange-repo/assets/payrangehook.png
-SileoDepiction: https://fwbebofficial.github.io/fwrange-repo/depictions/com.fwrange.payrangehook.json
 Filename: debs/com.fwrange.payrangehook_1.0.17_iphoneos-arm64.deb
 Size: 46440
+MD5sum: 1d3005e13ed4b3e5bac4bb87bf9f4c7b
+SHA1: 2e19e602fe4f36cd35f487a09f15ef6f3f50c7a0
 SHA256: 5e146f2cbf489007586058bfc6172e3ae90989caf91bc3e2a4b879def4fe1b8d
+Section: Tweaks
+Description: Unlocks Fowler Laundry operator mode in PayRange. Enables operator dropdown on any account, refund code generation, context-aware maintenance view, and BLE session caching.
+Author: FWRange
+Name: PayRange Operator Hook
 
 Package: com.qiop1379.iflooder
-Name: iFlooder
 Version: 1.1.0
 Architecture: iphoneos-arm64
-Description: A tweak to spam in the messages app. Updated for iOS 17.
-Author: qwertyuiop1379
 Maintainer: qwertyuiop1379
-Section: Tweaks
+Installed-Size: 204
 Depends: mobilesubstrate
-Icon: https://fwbebofficial.github.io/fwrange-repo/assets/iflooder.png
-SileoDepiction: https://fwbebofficial.github.io/fwrange-repo/depictions/com.qiop1379.iflooder.json
 Filename: debs/com.qiop1379.iflooder_1.1.0_iphoneos-arm64.deb
 Size: 13784
+MD5sum: 2329604edc610257e4b87d48cd5d1585
+SHA1: 8738a7fbb06adc47befcca149e72bde609750259
 SHA256: 95f56a0dc9b5cb947e76d7edde280b561012196af19a5c64b1071e6f4cfe0dd0
+Section: Tweaks
+Description: A tweak to spam in the messages app. Updated for iOS 17.
+Author: qwertyuiop1379
+Name: iFlooder
 
