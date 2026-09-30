@@ -2,11 +2,12 @@ Package: com.fw.fwmod
 Name: FWMod
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: Full-featured mod menu for Minecraft PE Bedrock v26.52. Fly, Speed, God Mode, Kill Aura, ESP, X-Ray, Item Spawner, Player Actions, Grief tools, and more. 8-tab modern floating UI. Requires Dopamine rootless + ElleKit.
-Author: FWbebo
-Maintainer: FWbebo <toshidelay@gmail.com>
+Description: Full-featured MCPE mod menu for Bedrock Edition v26.52. Player, World, Combat, Visual, and Misc hacks with a modern floating UI.
+Author: FW Dev
+Maintainer: FW Dev
 Section: Tweaks
 Depends: mobilesubstrate | ellekit
+Homepage: https://github.com/fw/fwmod
 Icon: https://fwbebofficial.github.io/fwbebo-repo/assets/fwmod.png
 SileoDepiction: https://fwbebofficial.github.io/fwbebo-repo/depictions/com.fw.fwmod.json
 Filename: debs/com.fw.fwmod_1.0.0_iphoneos-arm64.deb
