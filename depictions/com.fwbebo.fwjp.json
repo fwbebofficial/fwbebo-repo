@@ -1,0 +1,134 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#2196F3",
+  "headerImage": "https://fwbebofficial.github.io/fwbebo-repo/assets/fwjp.png",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "FWJP"
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "**FWJP** disables Amazon's security stack and spoofs your device identity so the app sees a fresh device on every reset. Works on Amazon Japan and Amazon South Africa (GBox).\n\n**What it does:**\n- Disables Kavach SDK (proxy/VPN/screenshot monitoring)\n- Bypasses jailbreak, debugger, hook, and dylib detection\n- Spoofs IDFV, IDFA, device serial, installId, and fraud metadata fingerprint\n- Marketplace-aware locale + timezone (JP: `ja_JP`/Tokyo, SA: `en_ZA`/Johannesburg)\n- CTCarrier spoofed to match marketplace (Vodacom/ZA or NTT DOCOMO/JP)\n- Scrubs all GBox identity strings from UIDevice, NSBundle, and NSProcessInfo\n- Patches `amzn-app-ctxt` and `amzn-app-id` cookies to strip all GBox fingerprints\n- Japan/SA marketplace persists across Reset & Spoof wipes\n- Floating overlay: live hook log, Reset & Spoof, Cookies, Step Recorder, Info, **Check & Copy Diagnostic**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Developer: FWbebo",
+          "action": "https://github.com/fwbebofficial"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.10",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Full fingerprint audit: every GBox signal patched in one build\n- Marketplace-aware locale + timezone — JP: `ja_JP`/`Asia/Tokyo`, SA: `en_ZA`/`Africa/Johannesburg`\n- Restored installId spoof (`NA:mshop:<uuid>`) — intercepted at NSUserDefaults read; regenerated on wipe\n- Restored IDFA spoof (`ASIdentifierManager`) — persistent, regenerated on wipe\n- Restored CTCarrier spoof — Vodacom/ZA/655/01 for SA, NTT DOCOMO/JP/440/10 for Japan\n- Restored `NSProcessInfo.physicalMemory` → 8 GB (iPhone 15 Pro)\n- Scrubbed GBox from `UIDevice.name`, `UIDevice.model`, `NSProcessInfo.processName`, `NSBundle.bundleIdentifier`\n- Restored `NSBundle` display-name hook (FWamz → Amazon Shopping)\n- Restored `amzn-app-ctxt.scc` and `dm.pt` patches\n- New **📋 Check & Copy Diagnostic** toolbar button — copies full report of every spoofed value, live cookies, carrier, locale, and bundle to clipboard",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.9",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed `application.name` leaking as `FWamz` in MAES telemetry body — hooks `NSBundle` display name to return `Amazon Shopping`\n- Patched `amzn-app-ctxt.scc`: GBox was sending `USA`; now derived from marketplace (`ZA` for SA, `JP` for Japan)\n- Patched `amzn-app-ctxt.dm.pt`: GBox sent wrong top padding (`16`); corrected to `177` for iPhone 15 Pro Dynamic Island\n- Spoofed `installId` (`NA:mshop:<uuid>`) — regenerated on every Reset & Spoof wipe; intercepted in NSUserDefaults reads\n- Spoofed IDFA (`ASIdentifierManager`) — persistent UUID regenerated on wipe\n- `NSProcessInfo.physicalMemory` now returns 8 GB consistent with iPhone 15 Pro\n- `CTCarrier` spoofed to marketplace carrier (Vodacom/ZA for SA, NTT DOCOMO/JP for Japan)\n- Pre-patches cookie cache at launch so the first MAES call goes out clean",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.8",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed critical bug: `_patchAppIdCookie` was placed inside the `%hook` block, causing Logos to generate a truncated `setCookie:` method (hook was a complete no-op in 1.0.6/1.0.7)\n- Both `amzn-app-ctxt` and `amzn-app-id` patches now fire correctly\n- Fixed cold-start crash (nil guard on cookie value)\n- `an`, `di.v`, `di.ca`, and `amzn-app-id` app name all patched on every write",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.6",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed `amzn-app-ctxt` patch to look inside nested `di` dict for `v` and `ca` fields (Amazon moved them in the current app version)\n- Added `amzn-app-id` cookie patch: replaces GBox app name with `Amazon Shopping`\n- Both patches now cover South Africa (`amazon.co.za`) and Japan (`amazon.co.jp`) marketplaces",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.5",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Added `amzn-app-ctxt` cookie patch: intercepts cookie at write time and fixes `an` (app name), `v` (device model `Unknown_` prefix), `ca` (invalid carrier `--`)\n- Hooks `NSHTTPCookieStorage` so patches apply on all paths including WKWebView",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.4",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Added Step Recorder: captures all Amazon HTTP traffic while enabled\n- Overlay now has 4 buttons: Reset | Cookies | Steps | Info",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.3",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Cookie extractor: tap Cookies in the overlay to grab your session cookies and copy to clipboard\n- Japan marketplace persistence: country/locale settings survive Reset & Spoof wipes\n- 3-button overlay toolbar (Reset | Cookies | Info)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed startup deadlock caused by NSLocale hook locking during early ObjC init\n- All hook bodies are now non-blocking (async log dispatch)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Fixed floating overlay not appearing on iOS 16 (UIWindowScene fix)\n- Added NSLocale hook to force amazon.co.jp instead of amazon.com\n- Fixed panel presenter on iOS 13+",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionMarkdownTextView",
+          "markdown": "- Initial release\n- Kavach SDK bypass\n- Identity spoofing (IDFV, serial, fingerprint)\n- Floating overlay with reset and device info",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

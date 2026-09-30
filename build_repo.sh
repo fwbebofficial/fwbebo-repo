@@ -1,17 +1,25 @@
 #!/bin/bash
 set -e
 cd "$(dirname "$0")"
-BASE_URL="https://fwbebofficial.github.io/fwrange-repo"
+BASE_URL="https://fwbebofficial.github.io/fwbebo-repo"
 pkg_icon() {
   case "$1" in
     com.fwrange.payrangehook) echo "assets/payrangehook.png" ;;
     com.qiop1379.iflooder)   echo "assets/iflooder.png" ;;
+    com.itaysoft.chusma)     echo "assets/chusma.png" ;;
+    com.fwbebo.chusma.app)   echo "assets/chusmaapp.png" ;;
+    com.mcpe.modmenu)        echo "assets/mcpespark.png" ;;
+    com.fw.fwmod)            echo "assets/fwmod.png" ;;
   esac
 }
 pkg_depiction() {
   case "$1" in
     com.fwrange.payrangehook) echo "depictions/com.fwrange.payrangehook.json" ;;
     com.qiop1379.iflooder)   echo "depictions/com.qiop1379.iflooder.json" ;;
+    com.itaysoft.chusma)     echo "depictions/com.itaysoft.chusma.json" ;;
+    com.fwbebo.chusma.app)   echo "depictions/com.fwbebo.chusma.app.json" ;;
+    com.mcpe.modmenu)        echo "depictions/com.mcpe.modmenu.json" ;;
+    com.fw.fwmod)            echo "depictions/com.fw.fwmod.json" ;;
   esac
 }
 echo "Generating Packages..."

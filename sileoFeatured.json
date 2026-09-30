@@ -4,18 +4,32 @@
   "itemCornerRadius": 8,
   "banners": [
     {
+      "package": "com.fw.fwmod",
+      "title": "FWMod — MCPE Mod Menu",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
+      "hideShadow": false,
+      "backgroundColor": "#1E2650"
+    },
+    {
       "package": "com.fwrange.payrangehook",
       "title": "PayRange Hook",
-      "url": "https://fwbebofficial.github.io/fwrange-repo/",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
       "hideShadow": false,
       "backgroundColor": "#1A5AB4"
     },
     {
       "package": "com.qiop1379.iflooder",
       "title": "iFlooder",
-      "url": "https://fwbebofficial.github.io/fwrange-repo/",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
       "hideShadow": false,
       "backgroundColor": "#DC501A"
+    },
+    {
+      "package": "com.itaysoft.chusma",
+      "title": "Chusma New Gen",
+      "url": "https://fwbebofficial.github.io/fwbebo-repo/",
+      "hideShadow": false,
+      "backgroundColor": "#2E8BFF"
     }
   ]
 }
