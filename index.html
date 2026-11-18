@@ -178,9 +178,12 @@
 <div class="card">
   <img src="assets/payrangehook.png" alt="PayRange Operator Hook">
   <div class="info">
-    <h3>PayRange Operator Hook</h3>
-    <p>Unlocks Fowler Laundry operator mode in PayRange: operator dropdown on any account, refund code generation, maintenance view, and BLE session caching.</p>
-    <div class="meta">v1.0.27 · iOS 12–17 · arm64 + arm64e</div>
+    <h3>PayRange Operator Hook <span class="badge">1.0.18</span></h3>
+    <p>Unlocks Fowler Laundry operator mode in PayRange: operator dropdown on any account, refund code generation, context-aware maintenance view, and BLE session caching with disk persistence.</p>
+    <div class="meta">v1.0.18 &middot; iOS 12&ndash;17 &middot; arm64 rootless &middot; Substrate required</div>
+    <div class="card-note">
+      <strong>v1.0.18</strong> &mdash; Fixed first-launch freeze that required 4&ndash;5 restarts. Root cause was a re-entrant <code>NSURLSession</code> creation inside the URL protocol handler deadlocking the URL loading system on cold start.
+    </div>
   </div>
 </div>
 
